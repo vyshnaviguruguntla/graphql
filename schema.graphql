@@ -1,0 +1,15 @@
+
+
+type Query {
+   greeting:String
+   test: String
+   students:[Student]
+}
+
+type Student {
+   id:ID!
+   firstName:String
+   lastName:String
+   password:String
+   collegeId:String
+}
